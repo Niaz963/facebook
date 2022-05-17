@@ -1,0 +1,142 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 14px;
+    font-family: arial;
+    background: #f0f2f5;
+    color: #1c1e21;
+    font-weight: normal;
+}
+
+
+#main-section{
+    padding: 120px;
+}
+
+.container{
+    max-width: 992px;
+    margin: auto;
+}
+
+.left-content{
+    float: left;
+    max-width: 500px;
+
+}
+
+.left-content h1{
+    font-size: 50px;
+    color: #1877f2;
+    margin-bottom: 20px;
+    font-weight: 900;
+}
+
+.left-content .para{
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-bottom: 40px;
+
+}
+
+.right-content{
+    float: right;
+    max-width: 450px;
+    margin: auto;
+    text-align: center;
+}
+
+.right-content form{
+    width: 400px;
+    height: 350px;
+    background: #fff;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+}
+
+.right-content form input{
+    width: 100%;
+    height: 50px;
+    font-size: 17px;
+    border: 1px solid #dddfe2;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+
+.right-content form input:focus{
+    border-color: #1877f2;
+    box-shadow: 0 0 0 2px #e7f3ff;
+}
+
+.btn-login{
+    font-size: 20px;
+    background: #1877f2;
+    height: 50px;
+    
+    color: #fff;
+    line-height: 50px;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
+    cursor: pointer;
+    transition: 0.4s;
+
+}
+
+.btn-login:hover{
+    background: #0b6ae7;
+
+}
+
+.login-form a{
+    display: block;
+    font-size: 14px;
+    line-height: 19px;
+    color: #1877f2;
+}
+
+.login-form a:hover{
+    text-decoration: underline;
+}
+
+.btn-new{
+    font-size: 20px;
+    height: 50px;
+    color: #fff;
+    line-height: 50px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: none;
+    margin-top: 20px;
+    padding: 0 17px;
+    display: inline-block;
+    background: #4cd137;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-new:hover{
+    background: #44bd32;
+}
+
+.right-content p a{
+    color: #1c1e21;
+    font-weight: 600px;
+}
+
+.right-content p a:hover{
+  text-decoration: underline;
+}
+	   
+ 
